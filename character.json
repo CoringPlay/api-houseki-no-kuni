@@ -12,16 +12,16 @@
 			"status": "Deceased",
 			"voice_actors":{
 				"japanese": "",
-				"english": "",
+				"english": ""
 			},
 			"image": {
 				"anime": {
 					"snail": "https://static.wikia.nocookie.net/houseki-no-kuni/images/1/1c/Aculeatus_giant.png/revision/latest/scale-to-width-down/350?cb=20180204174112",
-					"trye_form": "https://static.wikia.nocookie.net/houseki-no-kuni/images/3/38/Aculeatus_true_form.png/revision/latest/scale-to-width-down/350?cb=20180204174050",
+					"trye_form": "https://static.wikia.nocookie.net/houseki-no-kuni/images/3/38/Aculeatus_true_form.png/revision/latest/scale-to-width-down/350?cb=20180204174050"
 				},
 				"manga": {
 					"snail": "https://static.wikia.nocookie.net/houseki-no-kuni/images/a/ad/Aculeatus_Slug.PNG/revision/latest/scale-to-width-down/350?cb=20200628180815",
-					"trye_form": "https://static.wikia.nocookie.net/houseki-no-kuni/images/3/3a/Aculea_1.jpg/revision/latest/scale-to-width-down/232?cb=20151230071307",
+					"trye_form": "https://static.wikia.nocookie.net/houseki-no-kuni/images/3/3a/Aculea_1.jpg/revision/latest/scale-to-width-down/232?cb=20151230071307"
 				}
 			}
 		},
@@ -36,11 +36,11 @@
 			"status": "Active",
 			"voice_actors":{
 				"japanese": "null",
-				"english": "null",
+				"english": "null"
 			},
 			"image": {
 				"anime": "null",
-				"manga": "https://static.wikia.nocookie.net/houseki-no-kuni/images/b/bd/Aechmea.PNG/revision/latest/scale-to-width-down/350?cb=20171210163056",
+				"manga": "https://static.wikia.nocookie.net/houseki-no-kuni/images/b/bd/Aechmea.PNG/revision/latest/scale-to-width-down/350?cb=20171210163056"
 			}
 		}
 	}
