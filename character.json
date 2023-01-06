@@ -16,12 +16,12 @@
 			},
 			"image": {
 				"anime": {
-					"snail": "https://static.wikia.nocookie.net/houseki-no-kuni/images/1/1c/Aculeatus_giant.png/revision/latest/scale-to-width-down/350?cb=20180204174112",
-					"trye_form": "https://static.wikia.nocookie.net/houseki-no-kuni/images/3/38/Aculeatus_true_form.png/revision/latest/scale-to-width-down/350?cb=20180204174050"
+					"snail": "https://github.com/coringPlay/api-houseki-no-kuni/image/aculeatus/anime/aculeatus_giant.png",
+					"trye_form": "https://github.com/coringPlay/api-houseki-no-kuni/image/aculeatus/anime/aculeatus_true_form.png"
 				},
 				"manga": {
-					"snail": "https://static.wikia.nocookie.net/houseki-no-kuni/images/a/ad/Aculeatus_Slug.PNG/revision/latest/scale-to-width-down/350?cb=20200628180815",
-					"trye_form": "https://static.wikia.nocookie.net/houseki-no-kuni/images/3/3a/Aculea_1.jpg/revision/latest/scale-to-width-down/232?cb=20151230071307"
+					"snail": "https://github.com/coringPlay/api-houseki-no-kuni/image/aculeatus/manga/aculea_1.jpg",
+					"trye_form": "https://github.com/coringPlay/api-houseki-no-kuni/image/aculeatus/manga/aculeatus_slug.png"
 				}
 			}
 		},
@@ -40,7 +40,7 @@
 			},
 			"image": {
 				"anime": "null",
-				"manga": "https://static.wikia.nocookie.net/houseki-no-kuni/images/b/bd/Aechmea.PNG/revision/latest/scale-to-width-down/350?cb=20171210163056"
+				"manga": "https://github.com/coringPlay/api-houseki-no-kuni/image/aechmea/manga/Aechmea.png"
 			}
 		}
 	}
