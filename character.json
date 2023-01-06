@@ -16,12 +16,12 @@
 			},
 			"image": {
 				"anime": {
-					"snail": "https://github.com/coringPlay/api-houseki-no-kuni/image/aculeatus/anime/aculeatus_giant.png",
-					"trye_form": "https://github.com/coringPlay/api-houseki-no-kuni/image/aculeatus/anime/aculeatus_true_form.png"
+					"snail": "https://coringplay.github.io/api-houseki-no-kuni/image/aculeatus/anime/aculeatus_giant.png",
+					"trye_form": "https://coringplay.github.io/api-houseki-no-kuni/image/aculeatus/anime/aculeatus_true_form.png"
 				},
 				"manga": {
-					"snail": "https://github.com/coringPlay/api-houseki-no-kuni/image/aculeatus/manga/aculea_1.jpg",
-					"trye_form": "https://github.com/coringPlay/api-houseki-no-kuni/image/aculeatus/manga/aculeatus_slug.png"
+					"snail": "https://coringplay.github.io/api-houseki-no-kuni/image/aculeatus/manga/aculea_1.jpg",
+					"trye_form": "https://coringplay.github.io/api-houseki-no-kuni/image/aculeatus/manga/aculeatus_slug.png"
 				}
 			}
 		},
@@ -40,7 +40,7 @@
 			},
 			"image": {
 				"anime": "null",
-				"manga": "https://github.com/coringPlay/api-houseki-no-kuni/image/aechmea/manga/Aechmea.png"
+				"manga": "https://coringplay.github.io/api-houseki-no-kuni/image/aechmea/manga/Aechmea.png"
 			}
 		}
 	}
