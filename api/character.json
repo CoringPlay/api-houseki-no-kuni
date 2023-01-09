@@ -11,8 +11,8 @@
 			"first_appearance": "null",
 			"status": "Deceased",
 			"voice_actors":{
-				"japanese": "",
-				"english": ""
+				"japanese": "Yuko Sanpei",
+				"english": "Maggie Flecknoe"
 			},
 			"image": {
 				"anime": {
@@ -65,6 +65,48 @@
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/manga/alexandrite_debut.png",
 					"red" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/manga/alexandrite_red.png",
 					"post-moon" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/manga/alexandrite_moon.png"
+				}
+			}
+		},
+		"amethyst":{
+			"name": "Amethyst",
+			"ja_name": "アメシスト",
+			"age": "Unknown",
+			"hardness": "7",
+			"family": "The other Gems",
+			"current_location": "Earth, Manga Spoiler (The Moon)",
+			"first_appearance": "Volume 2, Chapter 13 Episode 1",
+			"status": "Active",
+			"voice_actors":{
+				"japanese": "Kanae Ito (both)",
+				"english": "Teresa Zimmerman (both)"
+			},
+			"image": {
+				"anime": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/amethyst/anime/amethyst_twins.jpg"},
+				"manga": {}
+			}
+		},
+		"antarcticite":{
+			"name": "Antarcticite",
+			"ja_name": "アンタークチサイト",
+			"age": "Unknown",
+			"hardness": "3",
+			"family": "The other Gems",
+			"current_location": "Moon",
+			"first_appearance": "Volume 3, Chapter 15 Episode 7",
+			"status": "Unknown",
+			"voice_actors":{
+				"japanese": "Mariya Ise",
+				"english": "Alyssa Marek"
+			},
+			"image": {
+				"anime": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/anime/antarcticite.jpg"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite.png"
+					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite_transformation.png"
 				}
 			}
 		}
