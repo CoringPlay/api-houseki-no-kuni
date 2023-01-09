@@ -109,6 +109,118 @@
 					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite_transformation.jpg"
 				}
 			}
+		},
+		"apophyllite":{
+			"name": "Apophyllite",
+			"ja_name": "null",
+			"age": "Unknown",
+			"hardness": "4.5-5",
+			"family": "The other Gems",
+			"current_location": "Moon",
+			"first_appearance": "null",
+			"status": "Inactive prior to beginning of the story",
+			"voice_actors":{
+				"japanese": "null",
+				"english": "null"
+			},
+			"image": {
+				"anime": {
+					"debut" :"null"
+				},
+				"manga": {
+					"debut" :"null"
+				}
+			}
+		},
+		"appe":{
+			"name": "Appe",
+			"ja_name": "null",
+			"age": "Unknown",
+			"hardness": "Unknown",
+			"family": "null",
+			"current_location": "The Moon",
+			"first_appearance": "Volume 9, Chapter 68",
+			"status": "Inactive prior to beginning of the story",
+			"voice_actors":{
+				"japanese": "null",
+				"english": "null"
+			},
+			"image": {
+				"anime": {
+					"debut" :"null"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/appe/manga/Appe.png"
+				}
+			}
+		},
+		"aquamarine":{
+			"name": "Aquamarine",
+			"ja_name": "null",
+			"age": "Unknown",
+			"hardness": "7.5–8",
+			"family": "The other Gems",
+			"current_location": "Moon",
+			"first_appearance": "null",
+			"status": "Inactive prior to the beginning of the story",
+			"voice_actors":{
+				"japanese": "null",
+				"english": "null"
+			},
+			"image": {
+				"anime": {
+					"debut" :"null"
+				},
+				"manga": {
+					"debut" :"null"
+				}
+			}
+		},
+		"barbata":{
+			"name": "Barbata",
+			"ja_name": "null",
+			"age": "Unknown (about as old as Aechmea)",
+			"hardness": "7.5–8",
+			"family": "The other Gems",
+			"current_location": "Moon",
+			"first_appearance": "Volume 10, Chapter 72",
+			"status": "Active",
+			"voice_actors":{
+				"japanese": "null",
+				"english": "null"
+			},
+			"image": {
+				"anime": {
+					"debut" :"null"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/barbata/manga/barbata.png"
+				}
+			}
+		},
+		"benitoite":{
+			"name": "Benitoite",
+			"ja_name": "ベニトアイト",
+			"age": "Unknown",
+			"hardness": "6.5",
+			"family": "The other Gems",
+			"current_location": "Moon",
+			"first_appearance": "Volume 1, Chapter 1 Episode 1",
+			"status": "Active",
+			"voice_actors":{
+				"japanese": "Ari Ozawa",
+				"english": "Elissa Cuellar"
+			},
+			"image": {
+				"anime": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/anime/benitoite.jpg"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite.png",
+					"post-moon":"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/beniboon_moon.png",
+					"post-transformation":"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite_transform.png"
+				}
+			}
 		}
 	}
 }
