@@ -105,8 +105,8 @@
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/anime/antarcticite.jpg"
 				},
 				"manga": {
-					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite.png",
-					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite_transformation.png"
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite.jpg",
+					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite_transformation.jpg"
 				}
 			}
 		}
