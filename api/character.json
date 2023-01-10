@@ -241,8 +241,8 @@
 				},
 				"manga": {
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort.png",
-					"short":"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/beniboon_short.png",
-					"post-transformation":"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort_transformation.png"
+					"short":"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort_short.png",
+					"post-transformation":"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort-transformation.png"
 				}
 			}
 		}
