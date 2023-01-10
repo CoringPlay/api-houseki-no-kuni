@@ -221,6 +221,30 @@
 					"post-transformation":"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite_transform.png"
 				}
 			}
+		},
+		"bort":{
+			"name": "Bort",
+			"ja_name": "ボルツ",
+			"age": "Unknown",
+			"hardness": "10",
+			"family": "The other Gems",
+			"current_location": "Earth, Manga Spoiler (The Moon)",
+			"first_appearance": "Volume 1, Chapter 1 Episode 1",
+			"status": "Active",
+			"voice_actors":{
+				"japanese": "Ayane Sakura",
+				"english": "Genevieve Simmons"
+			},
+			"image": {
+				"anime": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/anime/bort.jpg"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort.png",
+					"short":"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/beniboon_short.png",
+					"post-transformation":"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort_transformation.png"
+				}
+			}
 		}
 	}
 }
