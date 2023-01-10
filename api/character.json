@@ -217,7 +217,7 @@
 				},
 				"manga": {
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite.png",
-					"post-moon":"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/beniboon_moon.png",
+					"post-moon":"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite_moon.png",
 					"post-transformation":"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite_transform.png"
 				}
 			}
