@@ -248,7 +248,7 @@
 		},
 		"cairngorm":{
 			"name": "Cairngorm",
-			"ja_name": "ボルツ",
+			"ja_name": "カンゴーム",
 			"age": "Younger than 1,102 years old",
 			"hardness": "7",
 			"family": "The other Gems",
@@ -267,6 +267,28 @@
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/cairngorm/manga/cairngorm.png",
 					"post-moon":"https://coringplay.github.io/api-houseki-no-kuni/api/image/cairngorm/manga/cairngorm_moon.png",
 					"welegato":"https://coringplay.github.io/api-houseki-no-kuni/api/image/cairngorm/manga/cairngorm_welegato.png"
+				}
+			}
+		},
+		"chrysoberyl":{
+			"name": "Chrysoberyl",
+			"ja_name": "クリソベリル",
+			"age": "Unknown",
+			"hardness": "8.5",
+			"family": "The other Gems",
+			"current_location": "Moon",
+			"first_appearance": "Volume 5, Chapter 31 (Mentioned)",
+			"status": "Inactive prior to the beginning of the story",
+			"voice_actors":{
+				"japanese": "null",
+				"english": "null"
+			},
+			"image": {
+				"anime": {
+					"debut" :"null"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/chrysoberyl/manga/chrysoberyl.png"
 				}
 			}
 		}
