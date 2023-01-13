@@ -313,6 +313,29 @@
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/cicada/manga/cicada.png"
 				}
 			}
+		},
+		"cinnabar":{
+			"name": "Cinnabar",
+			"ja_name": "シンシャ",
+			"age": "Unknown (same age as Diamond)",
+			"hardness": "2",
+			"family": "The other Gems",
+			"current_location": "Earth Manga Spoiler (Moon)",
+			"first_appearance": "Volume 8, Chapter 56",
+			"status": "Active",
+			"voice_actors":{
+				"japanese": "Mikako Komatsu",
+				"english": "Avery Smithhart"
+			},
+			"image": {
+				"anime": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/manga/cinnabar.png"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/manga/cinnabar.png",
+					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/manga/cinnabar_transformation.png"
+				}
+			}
 		}
 	}
 }
