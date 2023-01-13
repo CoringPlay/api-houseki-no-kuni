@@ -291,6 +291,28 @@
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/chrysoberyl/manga/chrysoberyl.png"
 				}
 			}
+		},
+		"cicada":{
+			"name": "Cicada",
+			"ja_name": "蝉",
+			"age": "Unknown",
+			"hardness": "Unknown",
+			"family": "Unknown",
+			"current_location": "Moon",
+			"first_appearance": "Volume 8, Chapter 56",
+			"status": "Active",
+			"voice_actors":{
+				"japanese": "null",
+				"english": "null"
+			},
+			"image": {
+				"anime": {
+					"debut" :"null"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/cicada/manga/cicada.png"
+				}
+			}
 		}
 	}
 }
