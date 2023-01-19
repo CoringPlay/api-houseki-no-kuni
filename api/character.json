@@ -20,7 +20,7 @@
 					"trye_form": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/anime/aculeatus_true_form.png"
 				},
 				"manga": {
-					"snail": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/manga/aculea_1.jpg",
+					"snail": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/manga/aculea_1.png",
 					"trye_form": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/manga/aculeatus_slug.png"
 				}
 			}
@@ -58,8 +58,8 @@
 			},
 			"image": {
 				"anime": {
-					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/anime/alexandrite_debut.jpg",
-					"red" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/anime/alexandrite_red.jpg"
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/anime/alexandrite_debut.png",
+					"red" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/anime/alexandrite_red.png"
 				},
 				"manga": {
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/manga/alexandrite_debut.png",
@@ -83,7 +83,7 @@
 			},
 			"image": {
 				"anime": {
-					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/amethyst/anime/amethyst_twins.jpg"},
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/amethyst/anime/amethyst_twins.png"},
 				"manga": {}
 			}
 		},
@@ -102,11 +102,11 @@
 			},
 			"image": {
 				"anime": {
-					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/anime/antarcticite.jpg"
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/anime/antarcticite.png"
 				},
 				"manga": {
-					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite.jpg",
-					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite_transformation.jpg"
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite.png",
+					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite_transformation.png"
 				}
 			}
 		},
@@ -213,7 +213,7 @@
 			},
 			"image": {
 				"anime": {
-					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/anime/benitoite.jpg"
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/anime/benitoite.png"
 				},
 				"manga": {
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite.png",
@@ -237,7 +237,7 @@
 			},
 			"image": {
 				"anime": {
-					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/anime/bort.jpg"
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/anime/bort.png"
 				},
 				"manga": {
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort.png",
@@ -334,6 +334,30 @@
 				"manga": {
 					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/manga/cinnabar.png",
 					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/manga/cinnabar_transformation.png"
+				}
+			}
+		},
+		"diamond":{
+			"name": "Diamond",
+			"ja_name": "ダイヤモンド",
+			"age": "Unknown (same age as Diamond)",
+			"hardness": "2",
+			"family": "The other Gems",
+			"current_location": "Earth Manga Spoiler (Moon)",
+			"first_appearance": "Volume 1, Chapter 1 Episode 1",
+			"status": "Active",
+			"voice_actors":{
+				"japanese": "Ai Kayano",
+				"english": "Savanna Menzel"
+			},
+			"image": {
+				"anime": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/diamond/anime/diamond.png"
+				},
+				"manga": {
+					"debut" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/diamond/manga/diamond.png",
+					"post-moon":"https://coringplay.github.io/api-houseki-no-kuni/api/image/diamond/manga/diamond_moon.png",
+					"post-transformation" :"https://coringplay.github.io/api-houseki-no-kuni/api/image/diamond/manga/diamond_transformation.png"
 				}
 			}
 		}
