@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houseki no Kuni API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #eee;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(22, 33, 62, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #0f3460;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #e94560, #f47068);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #a8dadc;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(15, 52, 96, 0.3);
+            border-radius: 10px;
+            border-left: 4px solid #e94560;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #f47068;
+        }
+        
+        .code-block {
+            background: #0d1929;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Monaco', monospace;
+            border: 1px solid #2a4365;
+        }
+        
+        .code-block pre {
+            color: #e2e8f0;
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+        }
+        
+        .endpoint {
+            background: #1e3a5f;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            margin: 10px 0;
+            display: inline-block;
+        }
+        
+        .tabs {
+            display: flex;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #2a4365;
+        }
+        
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background: rgba(15, 52, 96, 0.5);
+            border: 1px solid #2a4365;
+            border-bottom: none;
+            border-radius: 5px 5px 0 0;
+            margin-right: 5px;
+        }
+        
+        .tab.active {
+            background: #0d1929;
+            color: #f47068;
+            border-bottom: 1px solid #0d1929;
+            margin-bottom: -1px;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .example-output {
+            background: #1a202c;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #2a4365;
+        }
+        
+        .character-card {
+            display: flex;
+            align-items: center;
+            background: rgba(15, 52, 96, 0.5);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 3px solid #e94560;
+        }
+        
+        .character-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            border: 2px solid #f47068;
+        }
+        
+        .character-info h3 {
+            margin-bottom: 5px;
+            color: #a8dadc;
+        }
+        
+        .character-info p {
+            margin: 3px 0;
+            font-size: 0.9rem;
+        }
+        
+        .note {
+            background: rgba(233, 69, 96, 0.2);
+            padding: 10px 15px;
+            border-radius: 5px;
+            border-left: 3px solid #e94560;
+            margin: 15px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #a8dadc;
+            border-top: 1px solid #2a4365;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .character-card {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .character-avatar {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Houseki no Kuni API</h1>
+            <p class="subtitle">Неофициальное API для вселенной "Владыка кристаллов"</p>
+        </header>
+        
+        <section class="section">
+            <h2>Об API</h2>
+            <p>Это бесплатное API предоставляет доступ к информации о персонажах, эпизодах и других данных из аниме и манги "Houseki no Kuni" (Владыка кристаллов). API размещено на Vercel и доступно для использования без ограничений.</p>
+            
+            <div class="note">
+                <p><strong>Важно:</strong> Это фанатский проект, не связанный с официальными создателями аниме/манги.</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Эндпоинты API</h2>
+            <p>Доступны следующие эндпоинты:</p>
+            
+            <div class="endpoint">GET /api/characters</div>
+            <p>Получить всех персонажей</p>
+            
+            <div class="endpoint">GET /api/characters/:id</div>
+            <p>Получить персонажа по ID</p>
+            
+            <div class="endpoint">GET /api/episodes</div>
+            <p>Получить все эпизоды (в разработке)</p>
+            
+            <div class="endpoint">GET /api/gems</div>
+            <p>Получить информацию о самоцветах (в разработке)</p>
+        </section>
+        
+        <section class="section">
+            <h2>Примеры использования</h2>
+            
+            <div class="tabs">
+                <div class="tab active" onclick="openTab(event, 'javascript-tab')">JavaScript</div>
+                <div class="tab" onclick="openTab(event, 'python-tab')">Python</div>
+                <div class="tab" onclick="openTab(event, 'curl-tab')">cURL</div>
+            </div>
+            
+            <div id="javascript-tab" class="tab-content active">
+                <h3>JavaScript (Fetch API)</h3>
+                <div class="code-block">
+                    <pre>// Получить всех персонажей
+fetch('https://api-houseki-no-kuni.vercel.app/api/characters')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+
+// Получить конкретного персонажа
+fetch('https://api-houseki-no-kuni.vercel.app/api/characters/phosphophyllite')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data.name);
+    console.log(data.hardness);
+  })
+  .catch(error => console.error('Error:', error));</pre>
+                </div>
+            </div>
+            
+            <div id="python-tab" class="tab-content">
+                <h3>Python (requests)</h3>
+                <div class="code-block">
+                    <pre>import requests
+
+# Получить всех персонажей
+response = requests.get('https://api-houseki-no-kuni.vercel.app/api/characters')
+characters = response.json()
+print(characters)
+
+# Получить конкретного персонажа
+response = requests.get('https://api-houseki-no-kuni.vercel.app/api/characters/phosphophyllite')
+character = response.json()
+print(f"Имя: {character['name']}")
+print(f"Твердость: {character['hardness']}")</pre>
+                </div>
+            </div>
+            
+            <div id="curl-tab" class="tab-content">
+                <h3>cURL</h3>
+                <div class="code-block">
+                    <pre># Получить всех персонажей
+curl https://api-houseki-no-kuni.vercel.app/api/characters
+
+# Получить конкретного персонажа
+curl https://api-houseki-no-kuni.vercel.app/api/characters/phosphophyllite
+
+# Получить в формате JSON
+curl -H "Accept: application/json" https://api-houseki-no-kuni.vercel.app/api/characters</pre>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Пример ответа API</h2>
+            <div class="code-block">
+                <pre>[
+  {
+    "id": "phosphophyllite",
+    "name": "Phosphophyllite",
+    "ja_name": "フォスフォフィライト",
+    "age": "300",
+    "hardness": 3.5,
+    "family": "The other Gems",
+    "current_location": "Moon",
+    "first_appearance": "Chapter 1",
+    "status": "Active",
+    "voice_actors": {
+      "japanese": "Tomoyo Kurosawa",
+      "english": "Allegra Clark"
+    },
+    "image": {
+      "anime": "https://example.com/phos.png",
+      "manga": "https://example.com/phos_manga.png"
+    }
+  },
+  // ... другие персонажи
+]</pre>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Пример использования данных</h2>
+            <p>Вот как можно отобразить полученные данные на веб-странице:</p>
+            
+            <div class="code-block">
+                <pre>&lt;div id="characters-container"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+fetch('https://api-houseki-no-kuni.vercel.app/api/characters')
+  .then(response => response.json())
+  .then(characters => {
+    const container = document.getElementById('characters-container');
+    
+    characters.forEach(character => {
+      const card = document.createElement('div');
+      card.className = 'character-card';
+      
+      card.innerHTML = `
+        &lt;img src="${character.image.anime}" alt="${character.name}" class="character-avatar"&gt;
+        &lt;div class="character-info"&gt;
+          &lt;h3&gt;${character.name}&lt;/h3&gt;
+          &lt;p&gt;Японское имя: ${character.ja_name}&lt;/p&gt;
+          &lt;p&gt;Твердость: ${character.hardness}&lt;/p&gt;
+          &lt;p&gt;Статус: ${character.status}&lt;/p&gt;
+        &lt;/div&gt;
+      `;
+      
+      container.appendChild(card);
+    });
+  });
+&lt;/script&gt;</pre>
+            </div>
+            
+            <div class="example-output">
+                <h3>Результат выполнения кода:</h3>
+                <div class="character-card">
+                    <img src="https://coringplay.github.io/api-houseki-no-kuni/api/image/phosphophyllite/anime/phosphophyllite.png" alt="Phosphophyllite" class="character-avatar">
+                    <div class="character-info">
+                        <h3>Phosphophyllite</h3>
+                        <p>Японское имя: フォスフォフィライト</p>
+                        <p>Твердость: 3.5</p>
+                        <p>Статус: Active</p>
+                    </div>
+                </div>
+                
+                <div class="character-card">
+                    <img src="https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/anime/cinnabar.png" alt="Cinnabar" class="character-avatar">
+                    <div class="character-info">
+                        <h3>Cinnabar</h3>
+                        <p>Японское имя: シンシャ</p>
+                        <p>Твердость: 2</p>
+                        <p>Статус: Active</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Дополнительные ресурсы</h2>
+            <ul style="padding-left: 20px;">
+                <li><a href="https://github.com/arufars/api-blue-archive" target="_blank" style="color: #a8dadc;">Вдохновляющий проект (Blue Archive API)</a></li>
+                <li><a href="https://houseki-no-kuni.fandom.com/wiki/Houseki_no_Kuni_Wiki" target="_blank" style="color: #a8dadc;">Официальная вики</a></li>
+                <li><a href="https://vercel.com" target="_blank" style="color: #a8dadc;">Vercel - платформа хостинга</a></li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>Houseki no Kuni API &copy; 2023 | Создано с ❤️ фанатами аниме</p>
+            <p>Исходный код доступен на GitHub</p>
+        </footer>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tabs;
+            
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            
+            tabs = document.getElementsByClassName("tab");
+            for (i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove("active");
+            }
+            
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('https://api-houseki-no-kuni.vercel.app/api/characters')
+                .then(response => response.json())
+                .then(characters => {
+                    const demoCharacters = characters.slice(0, 3);
+                    const container = document.querySelector('.example-output');
+                    
+                    const existingCards = container.querySelectorAll('.character-card');
+                    existingCards.forEach(card => card.remove());
+
+                    const title = document.createElement('h3');
+                    title.textContent = 'Результат выполнения кода:';
+                    container.appendChild(title);
+                    
+                    demoCharacters.forEach(character => {
+                        const card = document.createElement('div');
+                        card.className = 'character-card';
+                        
+                        const imageUrl = character.image && character.image.anime 
+                            ? character.image.anime 
+                            : 'https://via.placeholder.com/80';
+                        
+                        card.innerHTML = `
+                            <img src="${imageUrl}" alt="${character.name}" class="character-avatar">
+                            <div class="character-info">
+                                <h3>${character.name}</h3>
+                                <p>Японское имя: ${character.ja_name || 'Не указано'}</p>
+                                <p>Твердость: ${character.hardness || 'Не указано'}</p>
+                                <p>Статус: ${character.status || 'Не указано'}</p>
+                            </div>
+                        `;
+                        
+                        container.appendChild(card);
+                    });
+                })
+                .catch(error => {
+                    console.error('Ошибка при загрузке персонажей:', error);
+                    const container = document.querySelector('.example-output');
+                    container.innerHTML += '<p style="color: #e94560;">Не удалось загрузить данные персонажей</p>';
+                });
+        });
+    </script>
+</body>
+</html>
