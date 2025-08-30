@@ -1,10 +1,379 @@
 [
-    {
-      "id": 1,
-      "name": "Cinnabar",
-      "type": "Gem",
-      "hardness": 2,
-      "description": "Isolated due to poison",
-      "image": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/anime/cinnabar.png"
-    }
+	{
+	  "id": "aculeatus",
+	  "name": "Aculeatus",
+	  "ja_name": "アクレアツス",
+	  "age": "Unknown",
+	  "hardness": null,
+	  "family": "Ventricosus (older sister)",
+	  "current_location": null,
+	  "first_appearance": null,
+	  "status": "Deceased",
+	  "voice_actors": {
+		"japanese": "Yuko Sanpei",
+		"english": "Maggie Flecknoe"
+	  },
+	  "image": {
+		"anime": {
+		  "snail": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/anime/aculeatus_giant.png",
+		  "true_form": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/anime/aculeatus_true_form.png"
+		},
+		"manga": {
+		  "snail": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/manga/aculea_1.png",
+		  "true_form": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/manga/aculeatus_slug.png"
+		}
+	  }
+	},
+	{
+	  "id": "aechmea",
+	  "name": "Aechmea",
+	  "ja_name": "エクメア",
+	  "age": "Unknown",
+	  "hardness": null,
+	  "family": "Cairngorm (Wife)",
+	  "current_location": "Moon",
+	  "first_appearance": "Volume 8, Chapter 53",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": null,
+		"english": null
+	  },
+	  "image": {
+		"anime": null,
+		"manga": "https://coringplay.github.io/api-houseki-no-kuni/api/image/aechmea/manga/Aechmea.png"
+	  }
+	},
+	{
+	  "id": "alexandrite",
+	  "name": "Alexandrite",
+	  "ja_name": "アレキサンドライト",
+	  "age": "Unknown",
+	  "hardness": 8.5,
+	  "family": "The other Gems",
+	  "current_location": "Earth, Manga Spoiler (The Moon)",
+	  "first_appearance": "Volume 3, Chapter 14 Episode 1",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": "Rie Kugimiya",
+		"english": "Shelby Blocker"
+	  },
+	  "image": {
+		"anime": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/anime/alexandrite_debut.png",
+		  "red": "https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/anime/alexandrite_red.png"
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/manga/alexandrite_debut.png",
+		  "red": "https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/manga/alexandrite_red.png",
+		  "post-moon": "https://coringplay.github.io/api-houseki-no-kuni/api/image/alexandrite/manga/alexandrite_moon.png"
+		}
+	  }
+	},
+	{
+	  "id": "amethyst",
+	  "name": "Amethyst",
+	  "ja_name": "アメシスト",
+	  "age": "Unknown",
+	  "hardness": 7,
+	  "family": "The other Gems",
+	  "current_location": "Earth, Manga Spoiler (The Moon)",
+	  "first_appearance": "Volume 2, Chapter 13 Episode 1",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": "Kanae Ito (both)",
+		"english": "Teresa Zimmerman (both)"
+	  },
+	  "image": {
+		"anime": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/amethyst/anime/amethyst_twins.png"
+		},
+		"manga": {}
+	  }
+	},
+	{
+	  "id": "antarcticite",
+	  "name": "Antarcticite",
+	  "ja_name": "アンタークチサイト",
+	  "age": "Unknown",
+	  "hardness": 3,
+	  "family": "The other Gems",
+	  "current_location": "Moon",
+	  "first_appearance": "Volume 3, Chapter 15 Episode 7",
+	  "status": "Unknown",
+	  "voice_actors": {
+		"japanese": "Mariya Ise",
+		"english": "Alyssa Marek"
+	  },
+	  "image": {
+		"anime": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/anime/antarcticite.png"
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite.png",
+		  "post-transformation": "https://coringplay.github.io/api-houseki-no-kuni/api/image/antarcticite/manga/antarcticite_transformation.png"
+		}
+	  }
+	},
+	{
+	  "id": "apophyllite",
+	  "name": "Apophyllite",
+	  "ja_name": null,
+	  "age": "Unknown",
+	  "hardness": "4.5-5",
+	  "family": "The other Gems",
+	  "current_location": "Moon",
+	  "first_appearance": null,
+	  "status": "Inactive prior to beginning of the story",
+	  "voice_actors": {
+		"japanese": null,
+		"english": null
+	  },
+	  "image": {
+		"anime": {
+		  "debut": null
+		},
+		"manga": {
+		  "debut": null
+		}
+	  }
+	},
+	{
+	  "id": "appe",
+	  "name": "Appe",
+	  "ja_name": null,
+	  "age": "Unknown",
+	  "hardness": "Unknown",
+	  "family": null,
+	  "current_location": "The Moon",
+	  "first_appearance": "Volume 9, Chapter 68",
+	  "status": "Inactive prior to beginning of the story",
+	  "voice_actors": {
+		"japanese": null,
+		"english": null
+	  },
+	  "image": {
+		"anime": {
+		  "debut": null
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/appe/manga/Appe.png"
+		}
+	  }
+	},
+	{
+	  "id": "aquamarine",
+	  "name": "Aquamarine",
+	  "ja_name": null,
+	  "age": "Unknown",
+	  "hardness": "7.5–8",
+	  "family": "The other Gems",
+	  "current_location": "Moon",
+	  "first_appearance": null,
+	  "status": "Inactive prior to the beginning of the story",
+	  "voice_actors": {
+		"japanese": null,
+		"english": null
+	  },
+	  "image": {
+		"anime": {
+		  "debut": null
+		},
+		"manga": {
+		  "debut": null
+		}
+	  }
+	},
+	{
+	  "id": "barbata",
+	  "name": "Barbata",
+	  "ja_name": null,
+	  "age": "Unknown (about as old as Aechmea)",
+	  "hardness": "7.5–8",
+	  "family": "The other Gems",
+	  "current_location": "Moon",
+	  "first_appearance": "Volume 10, Chapter 72",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": null,
+		"english": null
+	  },
+	  "image": {
+		"anime": {
+		  "debut": null
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/barbata/manga/barbata.png"
+		}
+	  }
+	},
+	{
+	  "id": "benitoite",
+	  "name": "Benitoite",
+	  "ja_name": "ベニトアイト",
+	  "age": "Unknown",
+	  "hardness": 6.5,
+	  "family": "The other Gems",
+	  "current_location": "Moon",
+	  "first_appearance": "Volume 1, Chapter 1 Episode 1",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": "Ari Ozawa",
+		"english": "Elissa Cuellar"
+	  },
+	  "image": {
+		"anime": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/anime/benitoite.png"
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite.png",
+		  "post-moon": "https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite_moon.png",
+		  "post-transformation": "https://coringplay.github.io/api-houseki-no-kuni/api/image/benitoite/manga/benitoite_transform.png"
+		}
+	  }
+	},
+	{
+	  "id": "bort",
+	  "name": "Bort",
+	  "ja_name": "ボルツ",
+	  "age": "Unknown",
+	  "hardness": 10,
+	  "family": "The other Gems",
+	  "current_location": "Earth, Manga Spoiler (The Moon)",
+	  "first_appearance": "Volume 1, Chapter 1 Episode 1",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": "Ayane Sakura",
+		"english": "Genevieve Simmons"
+	  },
+	  "image": {
+		"anime": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/anime/bort.png"
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort.png",
+		  "short": "https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort_short.png",
+		  "post-transformation": "https://coringplay.github.io/api-houseki-no-kuni/api/image/bort/manga/bort_transformation.png"
+		}
+	  }
+	},
+	{
+	  "id": "cairngorm",
+	  "name": "Cairngorm",
+	  "ja_name": "カンゴーム",
+	  "age": "Younger than 1,102 years old",
+	  "hardness": 7,
+	  "family": "The other Gems",
+	  "current_location": "Earth, Manga Spoiler (The Moon)",
+	  "first_appearance": "Volume 6, Chapter 38",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": null,
+		"english": null
+	  },
+	  "image": {
+		"anime": {
+		  "debut": null
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cairngorm/manga/cairngorm.png",
+		  "post-moon": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cairngorm/manga/cairngorm_moon.png",
+		  "welegato": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cairngorm/manga/cairngorm_welegato.png"
+		}
+	  }
+	},
+	{
+	  "id": "chrysoberyl",
+	  "name": "Chrysoberyl",
+	  "ja_name": "クリソベリル",
+	  "age": "Unknown",
+	  "hardness": 8.5,
+	  "family": "The other Gems",
+	  "current_location": "Moon",
+	  "first_appearance": "Volume 5, Chapter 31 (Mentioned)",
+	  "status": "Inactive prior to the beginning of the story",
+	  "voice_actors": {
+		"japanese": null,
+		"english": null
+	  },
+	  "image": {
+		"anime": {
+		  "debut": null
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/chrysoberyl/manga/chrysoberyl.png"
+		}
+	  }
+	},
+	{
+	  "id": "cicada",
+	  "name": "Cicada",
+	  "ja_name": "蝉",
+	  "age": "Unknown",
+	  "hardness": "Unknown",
+	  "family": "Unknown",
+	  "current_location": "Moon",
+	  "first_appearance": "Volume 8, Chapter 56",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": null,
+		"english": null
+	  },
+	  "image": {
+		"anime": {
+		  "debut": null
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cicada/manga/cicada.png"
+		}
+	  }
+	},
+	{
+	  "id": "cinnabar",
+	  "name": "Cinnabar",
+	  "ja_name": "シンシャ",
+	  "age": "Unknown (same age as Diamond)",
+	  "hardness": 2,
+	  "family": "The other Gems",
+	  "current_location": "Earth Manga Spoiler (Moon)",
+	  "first_appearance": "Volume 8, Chapter 56",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": "Mikako Komatsu",
+		"english": "Avery Smithhart"
+	  },
+	  "image": {
+		"anime": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/anime/cinnabar.png"
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/manga/cinnabar.png",
+		  "post-transformation": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/manga/cinnabar_transformation.png"
+		}
+	  }
+	},
+	{
+	  "id": "diamond",
+	  "name": "Diamond",
+	  "ja_name": "ダイヤモンド",
+	  "age": "Unknown (same age as Diamond)",
+	  "hardness": 10,
+	  "family": "The other Gems",
+	  "current_location": "Earth Manga Spoiler (Moon)",
+	  "first_appearance": "Volume 1, Chapter 1 Episode 1",
+	  "status": "Active",
+	  "voice_actors": {
+		"japanese": "Ai Kayano",
+		"english": "Savanna Menzel"
+	  },
+	  "image": {
+		"anime": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/diamond/anime/diamond.png"
+		},
+		"manga": {
+		  "debut": "https://coringplay.github.io/api-houseki-no-kuni/api/image/diamond/manga/diamond.png",
+		  "post-moon": "https://coringplay.github.io/api-houseki-no-kuni/api/image/diamond/manga/diamond_moon.png",
+		  "post-transformation": "https://coringplay.github.io/api-houseki-no-kuni/api/image/diamond/manga/diamond_transformation.png"
+		}
+	  }
+	}
   ]
