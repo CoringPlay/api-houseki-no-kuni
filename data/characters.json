@@ -1,0 +1,10 @@
+[
+    {
+      "id": 2,
+      "name": "Cinnabar",
+      "type": "Gem",
+      "hardness": 2,
+      "description": "Isolated due to poison",
+      "image": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/anime/cinnabar.png"
+    }
+  ]
