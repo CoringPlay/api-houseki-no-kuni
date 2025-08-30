@@ -402,16 +402,70 @@ fetch('https://api-houseki-no-kuni.vercel.app/api/characters')
             evt.currentTarget.classList.add("active");
         }
         
+        // Функция для безопасного извлечения URL изображения
+        function getImageUrl(character) {
+            // Если нет данных об изображении
+            if (!character.image) {
+                return 'https://via.placeholder.com/80';
+            }
+            
+            // Если image - это строка (например, у Aechmea)
+            if (typeof character.image === 'string') {
+                return character.image;
+            }
+            
+            // Если image - это объект
+            if (typeof character.image === 'object') {
+                // Проверяем anime
+                if (character.image.anime) {
+                    // Если anime - это строка
+                    if (typeof character.image.anime === 'string') {
+                        return character.image.anime;
+                    }
+                    // Если anime - это объект (например, у Alexandrite)
+                    if (typeof character.image.anime === 'object') {
+                        // Берем первое доступное изображение
+                        const firstKey = Object.keys(character.image.anime)[0];
+                        if (firstKey) {
+                            return character.image.anime[firstKey];
+                        }
+                    }
+                }
+                
+                // Если нет anime, проверяем manga
+                if (character.image.manga) {
+                    // Если manga - это строка
+                    if (typeof character.image.manga === 'string') {
+                        return character.image.manga;
+                    }
+                    // Если manga - это объект
+                    if (typeof character.image.manga === 'object') {
+                        const firstKey = Object.keys(character.image.manga)[0];
+                        if (firstKey) {
+                            return character.image.manga[firstKey];
+                        }
+                    }
+                }
+            }
+            
+            // Если ничего не найдено
+            return 'https://via.placeholder.com/80';
+        }
+        
+        // Демонстрация загрузки персонажей
         document.addEventListener('DOMContentLoaded', function() {
             fetch('https://api-houseki-no-kuni.vercel.app/api/characters')
                 .then(response => response.json())
                 .then(characters => {
+                    // Берем первых 3 персонажей для демонстрации
                     const demoCharacters = characters.slice(0, 3);
                     const container = document.querySelector('.example-output');
                     
+                    // Удаляем существующие карточки
                     const existingCards = container.querySelectorAll('.character-card');
                     existingCards.forEach(card => card.remove());
-
+                    
+                    // Добавляем заголовок
                     const title = document.createElement('h3');
                     title.textContent = 'Результат выполнения кода:';
                     container.appendChild(title);
@@ -420,9 +474,8 @@ fetch('https://api-houseki-no-kuni.vercel.app/api/characters')
                         const card = document.createElement('div');
                         card.className = 'character-card';
                         
-                        const imageUrl = character.image && character.image.anime 
-                            ? character.image.anime 
-                            : 'https://via.placeholder.com/80';
+                        // Используем новую функцию для получения URL
+                        const imageUrl = getImageUrl(character);
                         
                         card.innerHTML = `
                             <img src="${imageUrl}" alt="${character.name}" class="character-avatar">
