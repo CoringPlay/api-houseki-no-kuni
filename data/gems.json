@@ -1,6 +1,14 @@
 [
-    {
-      "id": 1 ,
+  {
+	  "id": "aculeatus",
+	  "name": "Aculeatus",
+    "type": "Admirabilis",
+	  "hardness": null,
+    "description": null,
+	  "image":  "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/anime/aculeatus_giant.png"
+  },
+  {
+      "id": "cinnabar",
       "name": "Cinnabar",
       "type": "Gem",
       "hardness": 2,
