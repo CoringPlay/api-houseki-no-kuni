@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
 // Get character by ID
 router.get('/:id', (req, res) => {
   const gem = gems.find(c => c.id === parseInt(req.params.id));
-  if (!character) return res.status(404).json({ error: 'Character not found' });
+  if (!character) return res.status(404).json({ error: 'Gems not found' });
   res.json(character);
 });
 
