@@ -5,7 +5,7 @@
     "type": "Admirabilis",
 	  "hardness": null,
     "description": null,
-	  "image":  "https://coringplay.github.io/api-houseki-no-kuni/api/image/aculeatus/anime/aculeatus_giant.png"
+	  "image":  "https://coringplay.github.io/api-houseki-no-kuni/assets/image/aculeatus/anime/aculeatus_giant.png"
   },
   {
       "id": "cinnabar",
@@ -13,6 +13,6 @@
       "type": "Gem",
       "hardness": 2,
       "description": "Isolated due to poison",
-      "image": "https://coringplay.github.io/api-houseki-no-kuni/api/image/cinnabar/anime/cinnabar.png"
+      "image": "https://coringplay.github.io/api-houseki-no-kuni/assets/image/cinnabar/anime/cinnabar.png"
     }
   ]
