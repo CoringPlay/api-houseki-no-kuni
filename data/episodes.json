@@ -1,10 +1,110 @@
 [
-    {
-      "id": 1,
-      "name": "Cinnabar",
-      "type": "Gem",
-      "hardness": 2,
-      "description": "Isolated due to poison",
-      "image": "https://coringplay.github.io/api-houseki-no-kuni/assets/image/cinnabar/anime/cinnabar.png"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Phosphophyllite",
+    "ja_name": "フォスフォフィライト",
+    "directed": "Takahiko Kyōgoku",
+    "written": "Toshiya Ōno",
+    "relise": "October 7, 2017",
+    "description": "The Lustrous, a life form of humanoid embodiments of gemstones, fights against the Lunarians, who seek to harvest them for jewellery on the moon. The Lustrous' master, Kongō, assigns one of the weaker jewels, Phos, to assemble a natural history since they are unsuited for battle. Struggling to find new information to include in it, Phos is recommended to seek out the nightwatch, a Lustrous named Cinnabar, whose body carries a powerful poison. As Phos is looking for them, Cinnabar shows up to protect Phos from Lunarians despite wanting to avoid battle due to how their poison damages the land. The next day, Phos once again comes across Cinnabar, objecting to their wishes to be taken away to the moon and vowing to find them something they can do."
+  },
+  {
+    "id": 2,
+    "name": "Diamond",
+    "ja_name": "ダイヤモンド",
+    "directed": "Takahiko Kyōgoku",
+    "written": "Toshiya Ōno",
+    "relise": "October 14, 2017",
+    "description": "Phos approaches Diamond for advice on what to add to the encyclopedia when another group of Lunarians appear. Diamond's sword is knocked away while trying to deflect the Lunarians' attack, but they are saved by another diamond-class Lustrous, Bort, who Diamond laments they can not surpass. As Bort scolds Diamond for putting themselves at risk, another Lunarian heads towards the school while Kongō is deep in meditation. Diamond follows Bort as they fight the Lunarians, and Phos is swallowed by a large snail creature, whose acidic form starts to melt away Phos's body."
+  },
+  {
+    "id": 3,
+    "name": "Metamorphos",
+    "ja_name": "メタモルフォス",
+    "directed": "Kenji Mutō",
+    "written": "Kazuyuki Fudeyasu",
+    "relise": "October 21, 2017",
+    "description": "Detecting Phos inside the snail, Diamond finds a weak point in its shell, allowing Bort to defeat it. Discovering that Phos supposedly has transformed into a small slug creature, Diamond tries to find a way to turn them back to normal, but finds little help from the other Lustrous. They come across Cinnabar, who states that the slug is not actually Phos, but nonetheless gives Diamond a vital clue in saving Phos. The Lustrous managing to gather up pieces of Phos that were left behind in the snail's shell ultimately rebuilds Phos, who now is able to understand what the slug is saying."
+  },
+  {
+    "id": 4,
+    "name": "Soul - Flesh - Bone",
+    "ja_name": "魂・肉・骨",
+    "directed": "Shinichi Matsumi",
+    "written": "Kazuyuki Fudeyasu",
+    "relise": "October 28, 2017",
+    "description": "While conversing with the slug, who is revealed to be an Admirabilis named Ventricosus, Phos hears more about Cinnabar from Kongō. Hearing from Ventricosus that there is someone like them in their homeland, Phos decides to go under the sea, where Ventricosus transforms into a humanoid form. Ventricosus explains how humans once roamed the planet before evolving into three separate species representing flesh, bone, and soul: the Admirabilis, the Lustrous, and the Lunarians. Upon reaching their destination, Phos discovers that they had been led into a trap by Ventricosus, who wishes to give Phos to the Lunarians in exchange for her captured brother, Aculeatus."
+  },
+  {
+    "id": 5,
+    "name": "Return",
+    "ja_name": "帰還",
+    "directed": "Takahiko Kyōgoku",
+    "written": "Kazuyuki Fudeyasu",
+    "relise": "November 4, 2017",
+    "description": "The Lustrous, a life form of humanoid embodiments of gemstones, fights against the Lunarians, who seek to harvest them for jewellery on the moon. The Lustrous' master, Kongō, assigns one of the weaker jewels, Phos, to assemble a natural history since they are unsuited for battle. Struggling to find new information to include in it, Phos is recommended to seek out the nightwatch, a Lustrous named Cinnabar, whose body carries a powerful poison. As Phos is looking for them, Cinnabar shows up to protect Phos from Lunarians despite wanting to avoid battle due to how their poison damages the land. The next day, Phos once again comes across Cinnabar, objecting to their wishes to be taken away to the moon and vowing to find them something they can do."
+  },
+  {
+    "id": 6,
+    "name": "First Battle",
+    "ja_name": "初陣",
+    "directed": "Kenji Mutō",
+    "written": "Toshiya Ōno",
+    "relise": "November 11, 2017",
+    "description": "Following another Lunarian battle, Yellow Diamond discovers that Phos is having trouble controlling their new legs. Theorizing that this speed is allegedly the result of Phos's hidden potential finally being unleashed, Kongō assigns Phos to join the twins Amethyst 84 and 33 on lookout duty, while also becoming perturbed when Phos vaguely recollects something concerning humans. While the first two days of lookout duty prove to be mentally exhausting, Lunarians appear on the third day, bringing with them a new type of Lunarian that ensnares the Amethysts and shatters them. As Kongō and the others arrive to defeat the Lunarians, Phos is confronted by Bort over what happened."
+  },
+  {
+    "id": 7,
+    "name": "Hibernation",
+    "ja_name": "冬眠",
+    "directed": "Shinichi Matsumi",
+    "written": "Mio Inoue",
+    "relise": "November 18, 2017",
+    "description": "While the other Lustrous undergo winter hibernation, Phos is unable to sleep and joins up with Antarcticite, who serves as the only Lustrous on duty during the winter. As the two cut down ice floes to keep the noise down, Phos hears voices coming from one of the floes, which lures Phos into the water and bites off their arms."
+  },
+  {
+    "id": 8,
+    "name": "Antarcticite",
+    "ja_name": "アンタークチサイト",
+    "directed": "Takahiko Kyōgoku",
+    "written": "Mio Inoue",
+    "relise": "November 25, 2017",
+    "description": "With Antarcticite unable to find Phos's missing arms, Kongō instructs them to go to the Chord Shore where Lustrous are born for replacement material. Phos is given a gold arm as an intended temporary replacement, but it starts to grow out of control and engulfs them just as more Lunarians appear. With Kongō held up by another group of Lunarians, Antarcticite is forced to fight alone against a rare Lunarian, only to be shattered by a surprise attack when their guard is dropped. Wanting to save them, Phos manages to will the gold to change shape and wield it as a weapon, but is ultimately unable to stop the Lunarians from escaping with Antarcticite."
+  },
+  {
+    "id": 9,
+    "name": "Spring",
+    "ja_name": "春",
+    "directed": "Shinichi Matsumi",
+    "written": "Kazuyuki Fudeyasu",
+    "relise": "December 2, 2017",
+    "description": "Phos is still tormented by the loss of Antarcticite as they spend the rest of the winter mastering the gold alloy running through their body. As spring arrives and the other Lustrous awaken from hibernation, Phos, who appears to be forgetting about Cinnabar, becomes the center of attention due to their gold arms, particular as they take down a group of Lunarians single-handedly."
+  },
+  {
+    "id": 10,
+    "name": "Shiro",
+    "ja_name": "しろ",
+    "directed": "Kenji Mutō",
+    "written": "Kazuyuki Fudeyasu",
+    "relise": "December 9, 2017",
+    "description": "Intrigued by Phos's new fighting ability, Bort asks them to become their partner in place of Diamond while Kongō is asleep. The next day, another new type of giant Lunarian appears, proving resilient to Bort and Phos's attacks. As Phos and Bort retreat and order the other Lustrous to hold their position, the Lunarian makes its way inside the school and starts chasing after Diamond. Feeling that they cannot rely on Bort to protect them, Diamond goes up against the Lunarian, using their diamond limbs to slice it. As Bort comes to Diamond's aid, they discover that the Lunarian has now split into two separate Lunarians."
+  },
+  {
+    "id": 11,
+    "name": "Phosphophyllite",
+    "ja_name": "秘密",
+    "directed": "Yōko Kuno",
+    "written": "Kazuyuki Fudeyasu",
+    "relise": "December 16, 2017",
+    "description": "The Lustrous discover that every time they slice through the Lunarians, it splits into increasingly smaller clones of itself, eventually winding up in tiny dog-like form. After almost all the smaller pieces are found and caged, the Lunarian reforms into its original size but is tamed by Kongō, who refers to it as \"Shiro\". As Phos ponders about the relationship between Kongo and Shiro, Cinnabar, who had come across Shiro's final piece, reveals that the others are aware that Kongō has an apparent relationship with the Lunarians that Kongō is keeping secret, but they still follow Kongō regardless. After Shiro regains all its pieces and disappears after finding peace, Phos helps Rutile find ruby fragments to successfully restore Padparadscha, a Lustrous who has laid dormant due to the holes they were born with."
+  },
+  {
+    "id": 12,
+    "name": "New Work",
+    "ja_name": "新しい仕事",
+    "directed": "Takahiko Kyōgoku",
+    "written": "Kazuyuki Fudeyasu",
+    "relise": "December 23, 2017",
+    "description": "Asked about how to talk to the Lunarians, Padparadscha gives Phos cryptic advice before falling into slumber again. The next day, Bort tests Zircon as their next partner while Phos learns more about Lunarians from Alexandrite, who holds their own agenda against them. When Lunarians appear, Phos attempts to interrogate one of them, but is unable to get anything useful out of it before Cinnabar shows up to destroy them. Remembering their promise to find Cinnabar a new job, Phos asks for their help in finding out the truth concerning Kongō and the Lunarians."
+  }
+]
