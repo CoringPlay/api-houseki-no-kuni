@@ -10,8 +10,8 @@ router.get('/', (req, res) => {
 // Get character by ID
 router.get('/:id', (req, res) => {
   const episode = episodes.find(c => c.id === parseInt(req.params.id));
-  if (!character) return res.status(404).json({ error: 'Episodes not found' });
-  res.json(character);
+  if (!episode) return res.status(404).json({ error: 'Episodes not found' });
+  res.json(episode);
 });
 
 module.exports = router;
